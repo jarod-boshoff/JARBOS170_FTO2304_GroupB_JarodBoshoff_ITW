@@ -61,21 +61,27 @@
   }
   
   .flex-container-2 {
+    height: 3rem;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     padding-bottom: 50px;
     padding-top: 100px;
+    gap: 3rem;
+    font-size: 20px;
   }
 
   .flex-container-3 {
+    font-size: 20px ;
+    height: 3rem;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     padding-bottom: 50px;
     padding-top: 100px;
+    gap: 3rem;
   }
 
   .flex-item {
@@ -87,4 +93,16 @@
     justify-content: center;
     padding-left: 150px;
     padding-right: 150px;
+  }
+
+  .flex-1 {
+    background-color: darkgreen;
+  }
+
+  .flex-3 {
+    background-color: darkgreen;
+  }
+
+  .flex-5 {
+    background-color: darkgreen;
   }
