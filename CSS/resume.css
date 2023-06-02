@@ -51,6 +51,8 @@ padding-bottom: 25px;
 
 #Contact-Details {
 color: blue;
+text-align: center;
+margin-right: 2100px;
 }
 
 
@@ -254,3 +256,46 @@ section {
 .rightside {
   margin-right: 25px;
 }
+
+.flex-container {
+  height: 3rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-bottom: 50px;
+  padding-top: 100px;
+  gap: 3rem;
+  font-size: 20px;
+  padding-bottom: 150px;
+}
+
+.flex-item {
+  text-align: left;
+  padding: 1rem;
+  color: black;
+  border-radius: 6px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 25px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  margin: 0 4vw;
+}
+
+.link:hover {
+  color: rgb(255, 208, 0);
+  text-decoration: none;
+}
+  
+  .nav-link:hover {
+  color: rgb(255, 208, 0);
+  text-decoration: none;
+  }
+
+  .flex-5 {
+    padding-bottom: 100px;
+  }
