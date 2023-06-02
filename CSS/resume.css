@@ -210,7 +210,19 @@ color: black;
 }
 
 body{
-  font-size: 20px;
+  font-size: 18px;
+}
+
+.flex-container {
+  display: flex;
+  -ms-flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 100px;
+}
+
+.flex-item {
+  font-size: 10px;
+  padding: 0;
 }
 
 
@@ -232,9 +244,23 @@ h2 {
 
 @media screen and (max-width: 1024px) {
 .image-main {
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
 }
+
+.flex-item {
+  font-size: 10px;
+  padding: 0;
+}
+
+body {
+  font-size: 14px;
+}
+
+.footer {
+  font-size: 14px;
+}
+
 section {
   margin-left: 25px;
   margin-bottom: 0px;
