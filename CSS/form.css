@@ -81,7 +81,7 @@ body {
     cursor: pointer;
 }
 .form-box input[type=submit]:hover {
-    background: white;
+    background: darkcyan;
 }
 
 .form-box a {
