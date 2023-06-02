@@ -52,7 +52,7 @@ padding-bottom: 25px;
 #Contact-Details {
 color: blue;
 text-align: center;
-margin-right: 2100px;
+padding-top: 500px;
 }
 
 
@@ -258,31 +258,37 @@ section {
 }
 
 .flex-container {
+  text-align: center;
+  justify-content: center;
   height: 3rem;
   display: grid;
-  grid-template-columns: 1fr;
-  padding-bottom: 50px;
-  padding-top: 100px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding-bottom: 25px;
+  padding-top: 25px;
   gap: 3rem;
   font-size: 20px;
-  padding-bottom: 150px;
+  padding-bottom: 350px;
 }
 
 .flex-item {
-  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr ;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  background: grey;
+  text-align: center;
+  font-size: 15pcpx;
   padding: 1rem;
-  color: black;
+  color: white;
   border-radius: 6px;
   align-items: center;
   justify-content: center;
   padding-left: 25px;
   padding-right: 25px;
-  font-size: 25px;
 }
 
 .link {
   text-decoration: none;
-  color: black;
+  color: white;
   margin: 0 4vw;
 }
 
@@ -297,5 +303,5 @@ section {
   }
 
   .flex-5 {
-    padding-bottom: 100px;
+    padding-bottom: 10px;
   }
